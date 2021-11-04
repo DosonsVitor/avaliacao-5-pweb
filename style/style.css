@@ -27,14 +27,12 @@ p
 {
     width: 500px;
     color: white;
-    text-align: justify;[
-    align-self: center;
+    text-align: justify;
     font-size: 10px;
 }
 
 #solucao1, #solucao2
 {
-    width: 480px;
     display: none;
     padding: 10px;
     border-radius: 10px;
