@@ -34,6 +34,7 @@ p
 
 #solucao1, #solucao2
 {
+    width: 480px;
     display: none;
     padding: 10px;
     border-radius: 10px;
