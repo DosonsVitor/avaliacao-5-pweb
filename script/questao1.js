@@ -9,8 +9,7 @@ function resolver1(id)
 
     var hora = Math.floor(t);
     var minuto = Math.floor((t-hora) * 6);
-    var segundo = (((t-hora) * 6) - minuto) * 6;
 
     p.style.display = "block";
-    p.innerHTML = t + "h ou "+ hora + " Hora(s) e "+ minuto + " Minuto(s) e " + segundo +" Segundo(s)";
+    p.innerHTML = t + "h ou "+ hora + " Hora(s) e "+ minuto + " Minuto(s)";
 }
